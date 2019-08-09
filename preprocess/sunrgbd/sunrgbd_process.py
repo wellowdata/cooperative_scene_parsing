@@ -657,9 +657,9 @@ def learn_size_bin(category_specific=True):
 
 
 def main():
-    prepare_data(False, shift=False)
+    #prepare_data(False, shift=False)
     # learn_size_bin(category_specific=True)
-    # learn_size_bin(category_specific=False)
+    learn_size_bin(category_specific=False)
 
 
 if __name__ == '__main__':

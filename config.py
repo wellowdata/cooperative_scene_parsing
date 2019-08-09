@@ -19,10 +19,10 @@ class Config(object):
         Configuration of data paths.
         """
         self.dataset = dataset
-        self.project_root = '/home/siyuan/Dropbox/Project/nips2018'
+        self.project_root = '/home/cooperative_scene_parsing'
         if self.dataset == 'sunrgbd':
             self.metadata_root = 'metadata/sunrgbd'
-            self.data_root = 'metadata/sunrgbd/Dataset'
+            self.data_root = 'metadata/sunrgbd/Dataset/'
             self.clean_data_root = os.path.join(self.data_root, 'data_clean')
             self.proposal_root = os.path.join(self.metadata_root, 'sunrgbdproposals')
             self.obj_category = ['recycle_bin', 'cpu', 'paper', 'toilet', 'stool', 'whiteboard', 'coffee_table',
